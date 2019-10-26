@@ -59,11 +59,6 @@ const initialProperties = {
     fill: [{ match: { id: 'fries' }, id: 'dots' }, { match: { id: 'sandwich' }, id: 'lines' }],
     borderRadius: 0,
     borderWidth: 0,
-    borderColor: {
-        from: 'color',
-        modifiers: [['darker', 1.6]],
-    },
-
     axisTop: {
         enable: false,
         tickSize: 5,
